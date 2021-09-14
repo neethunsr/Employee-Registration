@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webpagee.css">
+    <title>Employee Page</title>
+</head>
+
+<body>
+    <form action="/action_page.php"></form>
+    <header><img src="Capture.JPG" height=50px width=250px></header>
+    <div class="content">
+        <div class="employeelist">
+            Employee List
+        </div>
+    </div>
+    <div class="employeedata">
+        <div class="container">
+            <h1>Create Employee</h1>
+        </div>
+
+        <div class="container">
+            <div class="main">
+                <div class="empname">
+                    <label for="name"><b>Employee Name</b></label>
+                    <input type="text" placeholder="Employee Name" name="employeename" id="employeename" required>
+                </div>
+                <div class="empid">
+                    <label for="empid"><b>Employee ID</b></label>
+                    <input type="number" placeholder="Employee ID" name="empid" id="empid" required>
+                </div>
+                <div class="empdate">
+                    <label for="joindate"><b>Joining Date</b></label>
+                    <input type="text" placeholder="Joining Date" name="JoiningDate" id="JoiningDate" required>
+                </div>
+                <div class="role">
+                    <label for="role"><b>Role</b></label>
+                    <SELECT>
+                        <OPTION Value="Choose Role">Choose Role</OPTION>
+                        <OPTION Value="Web Developer">Web Developer</OPTION>
+                        <OPTION Value="UI/UX">UI/UX</OPTION>
+                    </SELECT>
+                </div>
+                <div class="status">
+                    <label for="Status"><b>Status</b></label>
+                    <SELECT>
+                        <OPTION Value="Status">Status</OPTION>
+                        <OPTION Value="Working">Working</OPTION>
+                        <OPTION Value="Student">Student</OPTION>
+                    </SELECT>
+                </div>
+                <div class="input-box">
+                    <label for="experience"><b>Experience</b></label>
+                    <input type="text" placeholder="Experience" name="experience" id="experience" required>
+                </div>
+                <div class="input-box">
+                    <label for="Address"><b>Address</b></label>
+                    <input type="text" placeholder="Enter Address" name="Address" id="Address" required>
+                </div>
+                <div class="input-box">
+                    <label for="idproof"><b>Upload ID Proof</b></label>
+                    <form action="/action_page.php">
+                        <input type="file" placeholder="Choose file" id="myFile" name="filename">
+                    </form>
+                </div>
+                <div></div>
+                <!-- empty space-->
+                <div class="button-block">
+                    <button type="create" class="submitting">Create</button>
+                    <button class="cancelling">Cancel</button>
+                </div>
+            </div>
+
+
+
+        </div>
+</body>
+
+</html>

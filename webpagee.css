@@ -1,0 +1,165 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+.content {
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 1000px;
+    height: 1000px;
+    width: 200px;
+    background-color: white;
+    position: fixed;
+
+}
+
+.employeelist {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: deepskyblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+div.employeedata {
+    margin-left: 250px;
+    padding: 20px 25px;
+    height: 1200px;
+    width: auto;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+}
+
+.container {
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.empname {
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.empid {
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.empdate {
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.role {
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.status {
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.input-box {
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.submitting {
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 45px;
+    margin: 5px 10px;
+    border-radius: 2px;
+
+}
+.button-block{
+    
+    display: flex;
+    justify-content: left;
+    
+}
+
+.cancelling {
+    background-color: white;
+    color: grey;
+    padding: 5px 45px;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: gray;
+    cursor: pointer;
+    margin: 5px 10px;
+    
+}
+
+input[type=text],
+input[type=file],
+input[type=number] {
+    width: 85%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+select {
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+    padding: 10px;
+}

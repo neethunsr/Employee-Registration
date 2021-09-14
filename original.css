@@ -1,0 +1,158 @@
+body {
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: white;
+}
+
+.content {
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    background-color: whitesmoke;
+    position: fixed;
+}
+
+.employeelist {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: deepskyblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+div.employeedata {
+    margin-left: 250px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.container {
+    background-color: white;
+    margin-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+}
+
+.empname {
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.empid {
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.empdate {
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.role {
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.status {
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.input-box {
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.submitting {
+    background-color: deepskyblue;
+    color: white;
+    padding: 3px;
+    margin: 1px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+}
+
+.cancelling {
+    background-color: white;
+    color: grey;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text],
+input[type=number] {
+    width: 85%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+select {
+    width: 92.5%;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+    padding: 10px;
+}
